@@ -146,7 +146,7 @@ main{
 
 }
 .hero_main{
-    margin-top: 20px;
+    margin-top: 100px;
     display: flex;
     background-image: url(../Recursos/hero.png);
     border-radius: 1rem;
@@ -162,7 +162,7 @@ main{
 
 
 .hero_main_d{
-    margin-top: 20px;
+    margin-top: 75px;
     display: flex;
     background-image: url(../Recursos/dulceria.png);
     border-radius: 1rem;
@@ -398,6 +398,8 @@ a {
     position: relative;
 }
 .description-left{
+    margin-left: 20px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -423,21 +425,59 @@ a {
 /*-----------------------------------------------------------------------------*/
 /*Pie de pagina*/
 
-.footer-style{
-    padding: 0px;
-    margin: 0px;
+.footer{
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    padding: 10px 0;
 }
-
-.footer-style iframe{
-    width: 100% !important;
-    height: 215px !important;
-    border: none;
-    padding: 0px;
-    margin: 0px;
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    flex-wrap: wrap;
 }
-
-
-
-iframe::-webkit-scrollbar {
-    display: none; /* Para Chrome, Safari y Opera */
+.icon-elem{
+    list-style: none;
+}
+.icon{
+    color: white;
+    font-size: 32px;
+    display: 0 10px;
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.menu-elem{
+    list-style: none;
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.menu-icon:hover{
+    opacity: 1;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
 }
