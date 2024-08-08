@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de entretenimiento de Cine">
+    <meta name="author" content="GRUPO 1">
+    <meta name="keywords" content="Cine">
+    <link rel="icon" href="../Recursos/Cine/cine.png">
+    <!-- Esto es para añadir un nuevo font en este caso Inter -->
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <title>Cineplix</title> 
+</head>
+<body>
+    <header>
+        <?php include "../nav.php"; ?>
+
+    </header>
+    <div>
+        <section class="hero">
+            <div class="hero__description">
+                <div class="description-left">
+                    <h1 class="white">Bad Boys 4</h1>
+                    <img src="../Recursos/BadBoys/BAD BOYS.jpg" 
+                    alt="BadBoys" class="image" width="400" height="550">
+                </div>
+                <div class="description__right">
+                    <h2>Sipnosis</h2>
+                    <h3>Descripcion</h3>
+                    <p>
+                        Los policías más famosos del mundo regresan con su icónica mezcla de acción al límite y comedia escandalosa, 
+						pero esta vez con un giro inesperado: ¡Los mejores de Miami se dan a la fuga! Cuarta entrega de la saga 'Dos 
+						policías rebeldes'.
+                    </p>
+                    <h3>Categoria de la pelicula</h3>
+                    <p>Accion | 12 años</p>
+                    <h3>Tiempo de la pelicula</h3>
+                    <p>120 min</p>
+                    <h3>Trailer de la pelicula</h3>
+                    <iframe src="https://www.youtube.com/embed/FG3otWl6uKc?si=Vxz2jFIBza3nVvo3" 
+                    frameborder="0" class="iframe" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer-style">
+        <iframe src="../pag/footer.html" scrolling="no" > </iframe>
+    </div>
+</body>
+</html>
