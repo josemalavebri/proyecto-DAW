@@ -44,7 +44,7 @@
                     <button>Acceder</button>
                     <div class="registrar">
                         <p>No tengo cuenta 
-                            <a href="#">Crear una cuenta</a>
+                            <a href="registro.php">Crear una cuenta</a>
                         </p>
                     </div>
                 </div>

@@ -10,21 +10,22 @@
     <link rel="icon" href="./Recursos/Cine/cine.png">
     <link rel="stylesheet" href="./styles/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="animacion.js"></script>
+
 </head>
     <title>Cineplix</title> 
-
 </head>
 <body>
     <header>
     </header>
-    
+    <div id="nav-container"></div>
 <div>
     <main>
         <section class="hero_main">
             <div class="hero_estreno">
                 <div class="hero_text">
                     <a href="./Peliculas/Mi villano favorito 4.html">
-                    <h2>Compra tus tickets ya!</h2>
+                    <h2 id="animacion">Compra tus tickets ya!</h2>
                     </a>
                 </div>
             </div>
@@ -33,8 +34,9 @@
     <div class="separator"></div> <!-- Div separador -->
         <div class="content_section">
             <div class="welcome_section">
+                <div class="oferta" id="texto-container"></div>
                 <h1 class="white" id="estrenos">Bienvenido</h1>
-                <h2 class="white" >Estrenos recientes</h2>
+                <h2 class="white" id="textoAnimado">Estrenos recientes</h2>
                 <table>
                     <tr>
                         <td> <!-- PELICULA ITEM (BAD BOYS)-->
@@ -42,7 +44,7 @@
                                 <div class="top-peliculas-slide">
                                     <div class="owl-carousel" id="top-peliculas-slide">
                                         <div class="pelicula-item">
-                                            <img src="./Recursos/BadBoys/BAD BOYS.jpg" alt="">
+                                            <img id="bienvenido" src="./Recursos/BadBoys/BAD BOYS.jpg" alt="">
                                             <div class="pelicula-item-content" >
                                                 <div class="pelicula-item-title"> Bad Boys </div>
                                                 <div class="pelicula-infos">

@@ -15,7 +15,8 @@ header.innerHTML = `
                 <li><a href="./index.html#estrenos">CARTELERA</a></li>
                 <li><a href="./dulceria.html">DULCES</a></li>
                 <li><a href="./nosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="./login.php">PERFIL</a></li>
+                <li><a href="./login.php">Iniciar Sesion</a></li>
+                <li><a href="./registro.php"> Registro</a></li>
             </ul>
             </div>
         </div>
